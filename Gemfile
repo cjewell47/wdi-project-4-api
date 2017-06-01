@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'jwt'
 gem 'active_model_serializers'
 gem 'rails', '~> 5.1.1'
 gem 'pg', '~> 0.18'
