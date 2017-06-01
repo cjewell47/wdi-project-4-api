@@ -6,7 +6,7 @@ class Auth
   def self.issue(payload, expiry=24.hours.from_now)
     payload[:exp] = expiry.to_i
     JWT.encode(payload, auth_secret, ALGORITHM)
- end
+  end
 
   def self.decode(token, leeway=0)
     decoded = JWT.decode(token, auth_secret, true, { leeway: leeway, algorithm: ALGORITHM })
