@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :users
   scope :api do
-    end
+    resources :users
+    post 'login', to: 'authentications#login'
+    post 'register', to: 'authentications#register'
+  end
 end
