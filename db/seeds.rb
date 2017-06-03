@@ -9,3 +9,7 @@ u4 = User.create!(username: "Lindsay", email: "lindsay@lohan.com", image: "https
 
 
 r1 = u1.recipes.create!(name: "The Kale King", description: "All the vegetables you need");
+r2 = u1.recipes.create!(name: "Breakfast Shake", description: "Ultimate start to the day");
+r3 = u2.recipes.create!(name: "Dat Berry Shake", description: "Some BS about berries...");
+
+i1 = Ingredient.create!()
