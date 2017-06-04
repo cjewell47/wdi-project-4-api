@@ -14,10 +14,17 @@ gem 'puma', '~> 3.7'
 gem 'bcrypt', '~> 3.1.7'
 gem 'rack-cors'
 gem 'figaro'
-gem 'rspec-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem "database_cleaner"
+  gem "rspec-rails"
+  gem "rails-controller-testing"
+end
+
+group :test do
+  gem "capybara"
+  gem "selenium-webdriver"
 end
 
 group :development do
