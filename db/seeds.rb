@@ -8,9 +8,9 @@ u3 = User.create!(username: "Justin", email: "justin@bieber.com", image: "https:
 u4 = User.create!(username: "Lindsay", email: "lindsay@lohan.com", image: "https://d919ce141ef35c47fc40-b9166a60eccf0f83d2d9c63fa65b9129.ssl.cf5.rackcdn.com/images/124526.max-620x600.jpg", password: "password", password_confirmation: "password");
 
 
-r1 = u1.recipes.create!(name: "The Kale King", description: "All the vegetables you need");
-r2 = u1.recipes.create!(name: "Breakfast Shake", description: "Ultimate start to the day");
-r3 = u2.recipes.create!(name: "Dat Berry Shake", description: "Some BS about berries...");
+r1 = u1.recipes.create!(name: "The Kale King", description: "All the vegetables you need", colour: "157, 218, 109");
+r2 = u1.recipes.create!(name: "Breakfast Shake", description: "Ultimate start to the day", colour: "214, 166, 162");
+r3 = u2.recipes.create!(name: "Dat Berry Shake", description: "Some BS about berries...", colour: "179, 44, 109");
 
 i1 = Ingredient.create!(name: "Apple", image: "http://i.imgur.com/QcaiPaI.png",  colour: "181, 255, 120");
 i2 = Ingredient.create!(name: "Apricot", image: "http://i.imgur.com/uJCBwZY.png", colour: "255, 221, 120");
