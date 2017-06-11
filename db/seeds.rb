@@ -9,7 +9,7 @@ u4 = User.create!(username: "Lindsay", email: "lindsay@lohan.com", image: "https
 
 
 r1 = u1.recipes.create!(name: "The Kale King", description: "All the vegetables you need", colour: "157, 218, 109");
-r2 = u1.recipes.create!(name: "Breakfast Shake", description: "Ultimate start to the day", colour: "214, 166, 162");
+r2 = u3.recipes.create!(name: "Breakfast Shake", description: "Ultimate start to the day", colour: "214, 166, 162");
 r3 = u2.recipes.create!(name: "Dat Berry Shake", description: "Some BS about berries...", colour: "179, 44, 109");
 
 i1 = Ingredient.create!(name: "Apple", image: "http://i.imgur.com/UvtYhlI.png",  colour: "181, 255, 120");
@@ -55,3 +55,5 @@ r3.ingredients << i5;
 r3.ingredients << i18;
 r3.ingredients << i23;
 r3.ingredients << i19;
+
+c1 = u4.comments.create!(body: "This is delicious, I drank 8 of these yesterday!!", recipe: r1);
