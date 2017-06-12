@@ -6,11 +6,14 @@ u1 = User.create!(username: "Charlie", email: "charlie@sheen.com", image: "http:
 u2 = User.create!(username: "Tiger", email: "tiger@woods.com", image: "http://www.ballerstatus.com/wp-content/uploads/2017/05/tiger-375x286.jpg", password: "password", password_confirmation: "password");
 u3 = User.create!(username: "Justin", email: "justin@bieber.com", image: "https://s-media-cache-ak0.pinimg.com/originals/6b/e2/3c/6be23cd9d4ed80dd9957a45984211133.jpg", password: "password", password_confirmation: "password");
 u4 = User.create!(username: "Lindsay", email: "lindsay@lohan.com", image: "https://d919ce141ef35c47fc40-b9166a60eccf0f83d2d9c63fa65b9129.ssl.cf5.rackcdn.com/images/124526.max-620x600.jpg", password: "password", password_confirmation: "password");
+u5 = User.create!(username: "Bill", email: "bill@gates.com", image: "https://www.einvestigator.com/wp-content/uploads/2013/08/bill_gates_celebrity_mug_shot.jpg", password: "password", password_confirmation: "password");
 
 
-r1 = u1.recipes.create!(name: "The Kale King", description: "All the vegetables you need", colour: "157, 218, 109");
-r2 = u3.recipes.create!(name: "Breakfast Shake", description: "Ultimate start to the day", colour: "214, 166, 162");
-r3 = u2.recipes.create!(name: "Dat Berry Shake", description: "Some BS about berries...", colour: "179, 44, 109");
+r1 = u1.recipes.create!(name: "The Kale King", description: "All the vegetables you need, but drinkable.", colour: "157, 218, 109");
+r2 = u3.recipes.create!(name: "Breakfast Shake", description: "The ultimate start to the day. Chewing your breakfast is for losers.", colour: "214, 166, 162");
+r3 = u2.recipes.create!(name: "Dat Berry Shake", description: "It's mostly just berries in a blender. It's not rocket science.", colour: "179, 44, 109");
+r4 = u5.recipes.create!(name: "Brain Juice", description: "Take a lot of orange foods, and stick them in a blender. It's that simple.", colour: "255, 163, 53");
+r5 = u4.recipes.create!(name: "Purple drink", description: "It's both purple, and a drink.", colour: "181, 66, 148");
 
 i1 = Ingredient.create!(name: "Apple", image: "http://i.imgur.com/UvtYhlI.png",  colour: "181, 255, 120");
 i2 = Ingredient.create!(name: "Apricot", image: "http://i.imgur.com/BAknqCK.png", colour: "255, 221, 120");
@@ -55,5 +58,15 @@ r3.ingredients << i5;
 r3.ingredients << i18;
 r3.ingredients << i23;
 r3.ingredients << i19;
+r4.ingredients << i6;
+r4.ingredients << i10;
+r4.ingredients << i12;
+r4.ingredients << i13;
+r4.ingredients << i16;
+r5.ingredients << i5;
+r5.ingredients << i17;
 
 c1 = u4.comments.create!(body: "This is delicious, I drank 8 of these yesterday!!", recipe: r1);
+c2 = u2.comments.create!(body: "This a great recipe, good work Justin!", recipe: r2);
+c3 = u5.comments.create!(body: "I disliked this recipe immensely", recipe: r3);
+c4 = u1.comments.create!(body: "There are too many orange coloured fruits.", recipe: r4);
