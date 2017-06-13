@@ -1,3 +1,4 @@
+Comment.destroy_all
 Ingredient.destroy_all
 Recipe.destroy_all
 User.destroy_all
