@@ -1,6 +1,6 @@
-User.delete_all
-Recipe.delete_all
-Ingredient.delete_all
+User.destroy_all
+Recipe.destroy_all
+Ingredient.destroy_all
 
 u1 = User.create!(username: "Charlie", email: "charlie@sheen.com", image: "http://media.thedenverchannel.com/photo/2012/09/08/Charlie-Sheen-mugshot-22060079_112071_ver1.0_640_480.jpg", password: "password", password_confirmation: "password");
 u2 = User.create!(username: "Tiger", email: "tiger@woods.com", image: "http://www.ballerstatus.com/wp-content/uploads/2017/05/tiger-375x286.jpg", password: "password", password_confirmation: "password");
