@@ -1,24 +1,20 @@
-# README
+# Blend Life API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### WDI project 4
 
-Things you may want to cover:
+Created by Charles Jewell
 
-* Ruby version
+## Project overview
 
-* System dependencies
+This is the backend for my fourth WDI project. The app I built was Blend Life which was a platform for people to create and discuss smoothie recipes. 
 
-* Configuration
+![recipe submit page](http://i.imgur.com/nXECmG4.png)
 
-* Database creation
+## Project brief
 
-* Database initialization
+Create a full stack application with a Ruby on Rails back-end and an AngularJS front-end. It is required to:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Connect your Rails back-end to an SQL database and interact with it
+* Create at least two models in the SQL database, one being a user model
+* Have user authentication where the user's details are stored in the User model in the database
+* Create API routes with CRUD functionality using Rails that are to be consumed by the AngularJS front-end
