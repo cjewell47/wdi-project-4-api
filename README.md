@@ -130,9 +130,9 @@ Starting from the bottom of this piece of code, we collect a Token from the head
 
 To see what the rest of this app looks like, have a look at the front end that I built.
 
-The repository is here: https://github.com/cjewell47/blend-life-client
+The repository is [here](https://github.com/cjewell47/blend-life-client "Blend Life client-side").
 
-And the live app is here: http://intense-dusk-18560.herokuapp.com/
+And the live app is [here](http://intense-dusk-18560.herokuapp.com/ "Blend Life").
 
 Thank you!
 
