@@ -8,6 +8,8 @@ Created by Charles Jewell
 
 This is the backend for my fourth WDI project. The app I built was Blend Life which was a platform for people to create and discuss smoothie recipes. 
 
+If you would like to look at the Frontend the repo is [here](https://github.com/cjewell47/blend-life-client "Blend Life client-side"), the ReadMe for the frontend is [here](https://github.com/cjewell47/blend-life-client/blob/master/README.md "Blend Life frontend ReadMe"), and the live app is [here](http://intense-dusk-18560.herokuapp.com/ "Blend Life").
+
 ![recipe submit page](http://i.imgur.com/nXECmG4.png)
 
 ## Project brief
@@ -128,9 +130,11 @@ Starting from the bottom of this piece of code, we collect a Token from the head
 
 ## Check out the client side!
 
-To see what the rest of this app looks like, have a look at the front end that I built.
+To see what the rest of this app looks like, have a look at the frontend that I built.
 
 The repository is [here](https://github.com/cjewell47/blend-life-client "Blend Life client-side").
+
+The Frontend ReadMe is [here](https://github.com/cjewell47/blend-life-client/blob/master/README.md "Blend Life frontend ReadMe").
 
 And the live app is [here](http://intense-dusk-18560.herokuapp.com/ "Blend Life").
 
